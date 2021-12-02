@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.asc.framework.uitest.test.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyLoginPageTest"/>
+        </methods>
+      </class> <!-- com.asc.framework.uitest.test.LoginPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
